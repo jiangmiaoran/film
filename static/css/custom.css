@@ -1,0 +1,150 @@
+.movie-info li {
+    margin-top: 15px;
+
+}
+
+#confirm-modal >*{
+    color: black;
+!important;
+}
+
+.modal-dialog{
+    width: 300px;
+}
+
+
+
+footer {
+    margin-top: 40px;
+}
+
+.a {
+    color: #fcab2b;
+}
+
+a .btn {
+    color: white;
+!important;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.bg-yellow > * {
+    color: #fcab2b;
+!important;
+}
+
+.avartar img {
+    width: 70px;
+    margin-right: 10px;
+    border: 1px solid #a5a5a5;
+    border-radius: 10px;
+}
+
+.avartar img:hover {
+    border: 1px solid red;
+}
+
+.item-list ul {
+    margin-left: 0;
+    padding-left: 0;
+    font-size: 14px;
+}
+
+.item-list .title {
+    padding-top: 0;
+    margin-top: -10px;
+    color: #3b5998;
+    font-size: 22px;
+}
+
+.item-list li {
+    border-bottom: dashed 1px #a5a5a5;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.item-list a {
+    margin-right: 20px;
+}
+
+.item-list .blog-meta {
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.item-list .recommend-link {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+}
+/* ===== 情感分析样式 ===== */
+.sentiment-analysis {
+    margin-top: 8px;
+    font-size: 12px;
+    color: #666;
+    padding: 5px 0;
+}
+
+.sentiment-label {
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 11px;
+    margin-left: 5px;
+}
+
+.sentiment-positive {
+    background-color: #f6ffed;
+    border: 1px solid #b7eb8f;
+    color: #52c41a;
+}
+
+.sentiment-negative {
+    background-color: #fff2f0;
+    border: 1px solid #ffccc7;
+    color: #ff4d4f;
+}
+
+.sentiment-neutral {
+    background-color: #fafafa;
+    border: 1px solid #d9d9d9;
+    color: #faad14;
+}
+
+/* 情感统计样式 */
+.sentiment-stats {
+    margin: 15px 0;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border-left: 4px solid #007bff;
+}
+
+.sentiment-stats h5 {
+    margin-bottom: 15px;
+    color: #333;
+    font-weight: 600;
+}
+
+.sentiment-stats .stat-item {
+    text-align: center;
+    padding: 10px;
+}
+
+.sentiment-stats .stat-number {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.sentiment-stats .stat-label {
+    font-size: 12px;
+    color: #666;
+}
